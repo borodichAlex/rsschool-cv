@@ -1,3 +1,3 @@
 # CV
 
-[Link to CV](https://github.com/borodichAlex.github.io/rsschool-cv/cv)
+[Link to CV](https://borodichAlex.github.io/rsschool-cv/cv)
