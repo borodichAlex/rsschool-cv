@@ -25,3 +25,25 @@
 * Experience working with Figma, Avocode
 * Experience working with Node.js
 * Experience with writing unit tests
+
+### PROJECTS
+
+* Singolo (HTML, CSS, Responsive, Native JS)
+* Repair Design (HTML, CSS, Responsive, Native JS)
+* Virtual Keyboard (Native JS)
+* English for kids (Native JS)
+* Weather App (React)
+
+### EXPERIENCE
+
+Coding tests, projects from courses: Singolo, Virtual Keyboard, English for kids
+
+### EDUCATION
+
+- `2014-2017`  Software Engineer College
+- `2020 Q1-Q2` RS School Front-end
+- `2021 Q1`    RS School React
+
+### ENGLISH
+
+- `A2` - Pre Intermediate
