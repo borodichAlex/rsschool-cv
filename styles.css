@@ -5,11 +5,6 @@ html, body {
   padding: 0;
 }
 
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -110,13 +105,19 @@ header {
   background-color: black;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+}
+
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
-  padding: 5vw 8vw;
+  padding: 2vw;
 
-  background-color: rgb(240, 240, 240);
+  max-width: 1280px;
 }
 
 .large {
@@ -133,6 +134,27 @@ main {
 
 .block__heading {
   margin-bottom: 2.5rem;
+}
+
+.block__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.block__content-row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.block__img {
+  object-fit: cover;
+  max-width: 200px;
+  margin-right: 1rem;
+}
+
+.block__text {
+  flex-basis: 50%;
+  text-align: justify;
 }
 
 .heading {
@@ -176,6 +198,7 @@ main {
 
 .list__item {
   padding-left: 1rem;
+  margin-bottom: .3rem;
   position: relative;
 }
 
@@ -202,11 +225,11 @@ main {
 .media {
   position: relative;
 
-  margin-bottom: .5rem;
+  margin-bottom: .8rem;
 }
 
 .media__content {
-  margin-left: 3em;
+  margin-left: 3.5em;
 }
 
 .media__title {
@@ -233,6 +256,25 @@ main {
   top: 5px;
   left: 5px;
 
+  width: 32px;
+  height: 32px;
+
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.media__icon--address {
+  background-image: url(./assets/icons/icon-address.png);
+}
+
+.media__icon--email {
+  background-image: url(./assets/icons/icon-email.png);
+}
+
+.media__icon--phone {
+  background-image: url(./assets/icons/icon-phone.png);
+}
+
+.media__icon--telegram {
+  background-image: url(./assets/icons/icon-telegram.png);
 }
